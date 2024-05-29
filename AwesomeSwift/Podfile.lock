@@ -1,17 +1,15 @@
 PODS:
-  - Alamofire (5.6.2)
+  - Alamofire (5.9.1)
   - FilesProvider (0.26.0)
   - HandyJSON (5.0.4-beta)
-  - JXSegmentedView (1.3.0)
+  - JXSegmentedView (1.3.3)
   - Kingfisher (7.6.1)
-  - lottie-ios (3.3.0)
+  - lottie-ios (4.4.1)
   - MarqueeLabel (4.0.5)
   - NotificationBannerSwift (3.0.6):
     - MarqueeLabel (~> 4.0.5)
     - SnapKit (~> 5.0.1)
-  - R.swift (6.1.0):
-    - R.swift.Library (~> 5.3.0)
-  - R.swift.Library (5.3.0)
+  - R.swift (7.3.2)
   - SnapKit (5.0.1)
   - SQLite.swift (0.14.1):
     - SQLite.swift/standard (= 0.14.1)
@@ -41,7 +39,6 @@ SPEC REPOS:
     - MarqueeLabel
     - NotificationBannerSwift
     - R.swift
-    - R.swift.Library
     - SnapKit
     - SQLite.swift
     - SSZipArchive
@@ -56,7 +53,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Alamofire:
-    :commit: bdecb2c87a21a236dcfe88b21532ad3f0e3d20f4
+    :commit: f455c2975872ccd2d9c81594c658af65716e9b9a
     :git: "git@github.com:Alamofire/Alamofire.git"
   HandyJSON:
     :commit: f0b15db3bc0c51e935ea2385d6e33d412f04fffe
@@ -66,16 +63,15 @@ CHECKOUT OPTIONS:
     :git: "git@github.com:devxoul/Then.git"
 
 SPEC CHECKSUMS:
-  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
   FilesProvider: 2a8ae17d8b9c23a6feadb1308ee638fa31d21065
   HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
-  JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+  JXSegmentedView: 651b60fcf705258ba9395edd53876dbd2853fb68
   Kingfisher: 93a3c6d0d551658a31e19f21747e1d15cb39d525
-  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  lottie-ios: e047b1d2e6239b787cc5e9755b988869cf190494
   MarqueeLabel: 00cc0bcd087111dca575878b3531af980559707d
   NotificationBannerSwift: 7021be2338f8f29cf424b0aca43da462bf9e2a1a
-  R.swift: ec98ff71c4ab2f6fd01dd077e5afd15e63a4834c
-  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SQLite.swift: 2992550ebf3c5b268bf4352603e3df87d2a4ed72
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
@@ -83,4 +79,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 96728780c76d282830282bc4213f84e93dfac6ac
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.15.2

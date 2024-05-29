@@ -7,7 +7,7 @@
 
 import SwiftUI
 import NotificationBannerSwift
-import Rswift
+//import Rswift
 
 /// 通知示例
 struct NotificationBannerView: View {

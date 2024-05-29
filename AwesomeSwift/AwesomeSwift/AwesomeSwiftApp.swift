@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import Rswift
+//import Rswift
 import FirebaseCore
 import FirebaseCrashlytics
 
